@@ -7,9 +7,9 @@ tutorial to send data stream using mqtt protocol
 link: https://my.cytron.io/p-nodemcu-lua-v3-esp8266-wifi-with-ch340c?r=1&gclid=EAIaIQobChMIoMLJ4deE5wIVzA0rCh0NeA5FEAQYASABEgLpivD_BwE
   
 # Topic:
-mqtt publish : yourapikey + '/v2/streams'
+mqtt publish : accesstoken + '/v2/streams'
 
-mqtt subscribe : yourapikey + '/v2/streams/status'
+mqtt subscribe : accesstoken + '/v2/streams/status'
   
 # In this code, you need to change TWO things:
  *    1. Your 'Access Token' (can be obtained from devices in favoriot platform)
