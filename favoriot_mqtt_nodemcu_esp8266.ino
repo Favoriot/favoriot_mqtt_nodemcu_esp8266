@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-#define accessToken "rw-apikey/acesstoken"  //replace with your access token
+#define accessToken "rw-apikey/accesstoken"  //replace with your access token
 
 const char* ssid = "";  // **replace the SSID
 const char* pass = "";  // **replace the password
